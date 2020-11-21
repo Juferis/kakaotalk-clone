@@ -1,3 +1,3 @@
 # Kakao Talk Clone
 
-Use only html and css
+Use CSS and HTMl
