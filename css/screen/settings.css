@@ -1,0 +1,28 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings__setting:nth-child(3),
+.settings__setting:nth-child(11) {
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+.settings__setting:last-child {
+  border-bottom: none;
+}
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 20px;
+}
+.settings__setting-column:last-child {
+  color: var(--main-rgba);
+}
+.settings__setting-column span > i {
+  color: tomato;
+  margin-left: 5px;
+}
