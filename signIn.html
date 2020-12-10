@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcomne to Kokoa Clone</title>
+    <title>Sign In</title>
   </head>
   <body>
     <div class="status-bar">
@@ -22,32 +22,23 @@
       </div>
     </div>
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome To Kokoa Clone</h1>
-      <p class="welcome-header__text">
-        If you have a Kokoa Account, log in with your email or phone number.
-      </p>
+      <h1 class="welcome-header__title">Kokoa Clone Sign-In</h1>
+      <p class="welcome-header__text">Please, Write your e-mail and password</p>
     </header>
-    <form action="friends.html" method="get" id="login-form">
+    <form action="index.html" method="get" id="login-form" class="signIn-form">
       <input
         id="userId"
         name="username"
         type="email"
         placeholder="Email or phone number"
-        required
       />
       <input
         id="userPass"
         name="password"
         type="password"
         placeholder="Password"
-        minlength="8"
-        required
       />
-      <input type="submit" value="Log In" />
-    </form>
-    <form class="signIn-form" action="signIn.html">
-      <input type="submit" value="Sign In" />
-      <a href="#">Find Kokoa Account or Password</a>
+      <input type="submit" value="Sign In" id="signIn-btn" />
     </form>
     <div id="no-mobile">
       <span>Your screen is too big 😭</span>
@@ -56,7 +47,7 @@
       <span>Your screen is landscape</span>
       <span>Please make portrait</span>
     </div>
-    <script src="js/login.js"></script>
+    <script src="js/signIn.js"></script>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
