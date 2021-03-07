@@ -1,7 +1,7 @@
 # Kakao Talk Clone
 >HTML5와 CSS3를 이용하여 카카오톡의 Frontend의 부분을 클론 코딩 했습니다.  
 >로그인을 눌러 넘어가시면 됩니다.  
->Url : https://juferis.github.io/kakaotalk-clone/
+>URL : https://juferis.github.io/kakaotalk-clone/
 
 </br>
 
