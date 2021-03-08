@@ -3,6 +3,8 @@
 >로그인을 눌러 넘어가시면 됩니다.  
 >URL : https://juferis.github.io/kakaotalk-clone/
 
+</br>
+
 ## 사용기술
 - HTML5
 - CSS3
